@@ -28,12 +28,14 @@ Why would we use encapsulation?
 
 ## Abstraction
 
-Abstraction is...
+Abstraction is... 
+why?
+prevents code repetition, improves flexibility, working in large teams. 
 
 ## Inheritance
 
 Inheritance is...
-
+why? modular codebase, code reusability, less development.
 ## Polymorphism
 
 Polymorphism is...
