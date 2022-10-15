@@ -53,8 +53,54 @@
 
 - You can take advantage of abstract classes to design components and specify some level of standard functionality that must be implemented by derived classes.
 
+**Interface class:
+
+- Classes implement interfaces, denoted by Generalization.
+
+- At a high level, an interface acts as a blueprint for designing classes.
+
+- An interface can contain only method declarations. 
+
+- Interfaces: implement all the methods in the class that extends the interface. 
+
+- Interfaces support the hiding of information and protect client code. 
+
+- A ----------------- B: Use interface: A uses interface B.
+
+**Difference - Abstract vs Interface class:
+
+- Abstract classes are either partially implemented or not implemented at all.
+
+- By contrast, if you use interfaces, you would need to implement all the methods in the class that extends the interface. 
+
+- An abstract class allows you to create functionality that subclasses 
+  can implement or override.
+  
+- You should use an interface if you want a contract on some behaviour or functionality. 
+
+- A class can extend only one abstract class. It can take advantage of multiple interfaces. 
+
+**Enumeration:
+
+- Enumerations are model elements in class diagrams that represent user-defined data types.
+
+- Enumerations contain sets of named identifiers that represent the values of the enumeration. 
+
+**Datatypes:
+
+- Datatypes are model elements that define data values. 
+
+- You typically use data types to represent primitive types, such as an integer or string types. 
 
 
+
+
+
+- As computer systems grow you have to worry more and more about controlling dependencies. 
+
+- If dependencies get out of control, each change to a system has a broad ripple effect as more and more things have to change.
+
+- The bigger the ripple, the harder it is to change anything.
 
 
 
